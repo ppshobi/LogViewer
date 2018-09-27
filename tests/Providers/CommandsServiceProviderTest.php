@@ -64,7 +64,6 @@ class CommandsServiceProviderTest extends TestCase
             \Arcanedev\LogViewer\Commands\PublishCommand::class,
             \Arcanedev\LogViewer\Commands\StatsCommand::class,
             \Arcanedev\LogViewer\Commands\CheckCommand::class,
-            \Arcanedev\LogViewer\Commands\ClearLogsCommand::class,
         ];
 
         static::assertSame($expected, $this->provider->provides());
